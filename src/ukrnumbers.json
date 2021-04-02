@@ -1,0 +1,161 @@
+{
+    "numbers": [
+      {
+        "original": "0", 
+        "ukrainian": "нуль"
+      },
+      {
+        "original": "1", 
+        "ukrainian": "Один"
+      },
+      {
+        "original": "2", 
+        "ukrainian": "Два"
+      },
+      {
+        "original": "3", 
+        "ukrainian": "Три"
+      },
+      {
+        "original": "4", 
+        "ukrainian": "Чотири"
+      },
+      {
+        "original": "5", 
+        "ukrainian": "П’ять"
+      },
+      {
+        "original": "6", 
+        "ukrainian": "Шість"
+      },
+      {
+        "original": "7", 
+        "ukrainian": "Сім"
+      },
+      {
+        "original": "8", 
+        "ukrainian": "Вісім"
+      },
+      {
+        "original": "9", 
+        "ukrainian": "Дев’ять"
+      },
+      {
+        "original": "10", 
+        "ukrainian": "Десять"
+      },
+      {
+        "original": "11", 
+        "ukrainian": "Одинадцять"
+      },
+      {
+        "original": "12", 
+        "ukrainian": "Дванадцять"
+      },
+      {
+        "original": "13", 
+        "ukrainian": "Тринадцять"
+      },
+      {
+        "original": "14", 
+        "ukrainian": "Чотирнадцять"
+      },
+      {
+        "original": "15", 
+        "ukrainian": "П’ятнадцять"
+      },
+      {
+        "original": "16", 
+        "ukrainian": "Шістнадцять"
+      },
+      {
+        "original": "17", 
+        "ukrainian": "Сімнадцять"
+      },
+      {
+        "original": "18", 
+        "ukrainian": "Вісімнадцять"
+      },
+      {
+        "original": "19", 
+        "ukrainian": "Дев’ятнадцять"
+      },
+      {
+        "original": "20", 
+        "ukrainian": "Двадцять"
+      },
+      {
+        "original": "30", 
+        "ukrainian": "Тридцять"
+      },
+      {
+        "original": "40", 
+        "ukrainian": "Сорок"
+      },
+      {
+        "original": "50", 
+        "ukrainian": "П’ятдесят"
+      },
+      {
+        "original": "60", 
+        "ukrainian": "Шістдесят"
+      },
+      {
+        "original": "70", 
+        "ukrainian": "Сімдесят"
+      },
+      {
+        "original": "80", 
+        "ukrainian": "Вісімдесят"
+      },
+      {
+        "original": "90", 
+        "ukrainian": "Дев’яносто"
+      },
+      {
+        "original": "100", 
+        "ukrainian": "Сто"
+      },
+      {
+        "original": "200", 
+        "ukrainian": "Двісті"
+      },
+      {
+        "original": "300", 
+        "ukrainian": "Триста"
+      },
+      {
+        "original": "400", 
+        "ukrainian": "Чотириста"
+      },
+      {
+        "original": "500", 
+        "ukrainian": "П’ятсот"
+      },
+      {
+        "original": "600", 
+        "ukrainian": "Шістсот"
+      },
+      {
+        "original": "700", 
+        "ukrainian": "Сімсот"
+      },
+      {
+        "original": "800", 
+        "ukrainian": "Вісімсот"
+      },
+      {
+        "original": "900", 
+        "ukrainian": "Дев’ятсот"
+      },
+      {
+        "original": "1000", 
+        "ukrainian": "Одна Тисяча"
+      },
+      {
+        "original": "1000000", 
+        "ukrainian": "Мільйон"
+      }
+    ]
+  }
+  

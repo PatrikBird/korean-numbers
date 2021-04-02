@@ -1,18 +1,35 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="numbers">
+    <NumberCard
+      v-for="number in numbers"
+      :key="number.original"
+      :number="number"
+    />
   </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import { defineComponent } from 'vue'
+import NumberCard from '../components/NumberCard.vue'
+import DataService from '../services/DataService'
 
-@Options({
+export default defineComponent({
+  name: 'Home',
   components: {
-    HelloWorld,
+    NumberCard,
+  },
+  data() {
+    return {
+      numbers: DataService.getNumbers(),
+    }
   },
 })
-export default class Home extends Vue {}
 </script>
+
+<style scoped>
+.numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
