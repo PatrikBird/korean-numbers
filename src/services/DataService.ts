@@ -6,7 +6,7 @@ export default {
     return numbers.numbers
   },
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-  getNumber(original: string) {
+  getNumber(original: number) {
     const number = numbers.numbers.find(function (i) {
       return i.original == original
     })
