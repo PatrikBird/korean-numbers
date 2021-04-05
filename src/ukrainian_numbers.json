@@ -1,159 +1,159 @@
 {
-    "numbers": [
+    "ukrainian_numbers": [
       {
-        "original": 0, 
+        "number": 0, 
         "cardinal": "нуль"
       },
       {
-        "original": 1, 
+        "number": 1, 
         "cardinal": "Один"
       },
       {
-        "original": 2, 
+        "number": 2, 
         "cardinal": "Два"
       },
       {
-        "original": 3, 
+        "number": 3, 
         "cardinal": "Три"
       },
       {
-        "original": 4, 
+        "number": 4, 
         "cardinal": "Чотири"
       },
       {
-        "original": 5, 
+        "number": 5, 
         "cardinal": "П’ять"
       },
       {
-        "original": 6, 
+        "number": 6, 
         "cardinal": "Шість"
       },
       {
-        "original": 7, 
+        "number": 7, 
         "cardinal": "Сім"
       },
       {
-        "original": 8, 
+        "number": 8, 
         "cardinal": "Вісім"
       },
       {
-        "original": 9, 
+        "number": 9, 
         "cardinal": "Дев’ять"
       },
       {
-        "original": 10, 
+        "number": 10, 
         "cardinal": "Десять"
       },
       {
-        "original": 11, 
+        "number": 11, 
         "cardinal": "Одинадцять"
       },
       {
-        "original": 12, 
+        "number": 12, 
         "cardinal": "Дванадцять"
       },
       {
-        "original": 13, 
+        "number": 13, 
         "cardinal": "Тринадцять"
       },
       {
-        "original": 14, 
+        "number": 14, 
         "cardinal": "Чотирнадцять"
       },
       {
-        "original": 15, 
+        "number": 15, 
         "cardinal": "П’ятнадцять"
       },
       {
-        "original": 16, 
+        "number": 16, 
         "cardinal": "Шістнадцять"
       },
       {
-        "original": 17, 
+        "number": 17, 
         "cardinal": "Сімнадцять"
       },
       {
-        "original": 18, 
+        "number": 18, 
         "cardinal": "Вісімнадцять"
       },
       {
-        "original": 19, 
+        "number": 19, 
         "cardinal": "Дев’ятнадцять"
       },
       {
-        "original": 20, 
+        "number": 20, 
         "cardinal": "Двадцять"
       },
       {
-        "original": 30, 
+        "number": 30, 
         "cardinal": "Тридцять"
       },
       {
-        "original": 40, 
+        "number": 40, 
         "cardinal": "Сорок"
       },
       {
-        "original": 50, 
+        "number": 50, 
         "cardinal": "П’ятдесят"
       },
       {
-        "original": 60, 
+        "number": 60, 
         "cardinal": "Шістдесят"
       },
       {
-        "original": 70, 
+        "number": 70, 
         "cardinal": "Сімдесят"
       },
       {
-        "original": 80, 
+        "number": 80, 
         "cardinal": "Вісімдесят"
       },
       {
-        "original": 90, 
+        "number": 90, 
         "cardinal": "Дев’яносто"
       },
       {
-        "original": 100, 
+        "number": 100, 
         "cardinal": "Сто"
       },
       {
-        "original": 200, 
+        "number": 200, 
         "cardinal": "Двісті"
       },
       {
-        "original": 300, 
+        "number": 300, 
         "cardinal": "Триста"
       },
       {
-        "original": 400, 
+        "number": 400, 
         "cardinal": "Чотириста"
       },
       {
-        "original": 500, 
+        "number": 500, 
         "cardinal": "П’ятсот"
       },
       {
-        "original": 600, 
+        "number": 600, 
         "cardinal": "Шістсот"
       },
       {
-        "original": 700, 
+        "number": 700, 
         "cardinal": "Сімсот"
       },
       {
-        "original": 800, 
+        "number": 800, 
         "cardinal": "Вісімсот"
       },
       {
-        "original": 900, 
+        "number": 900, 
         "cardinal": "Дев’ятсот"
       },
       {
-        "original": 1000, 
+        "number": 1000, 
         "cardinal": "Одна Тисяча"
       },
       {
-        "original": 1000000, 
+        "number": 1000000, 
         "cardinal": "Мільйон"
       }
     ]
