@@ -1,8 +1,8 @@
 <template>
-  <div class="inser">
-    <h1>Insert a number and get it in ukrainian</h1>
+  <div>
+    <h1>Insert a number and get the name in ukrainian</h1>
     <div>
-      <input v-model="searchInput" />
+      <input class="insert" v-model="searchInput" />
       <h1>{{ result }}</h1>
     </div>
   </div>
@@ -28,3 +28,15 @@ export default {
   },
 }
 </script>
+<style scoped>
+.insert {
+  border: 2px solid #098319;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 34px;
+  margin: 4px 2px;
+  margin-bottom: 25px;
+}
+</style>
