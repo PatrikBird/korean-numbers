@@ -20,7 +20,7 @@ export default {
 .number-card {
   padding: 20px;
   width: 150px;
-  border: 1px solid #39495c;
+  border: 2px solid #ffd600;
   margin-bottom: 18px;
 }
 </style>

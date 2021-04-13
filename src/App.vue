@@ -8,12 +8,16 @@
 </template>
 
 <style>
+body {
+  background-color: #2ea2cc;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffd600;
 }
 
 #nav {
@@ -21,11 +25,19 @@
 }
 
 #nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  color: #ffd600;
+  font-size: 20px;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  border-bottom: 3px solid #ffd600;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #ffd600;
+  font-weight: bold;
+  border-bottom: 3px solid #ffd600;
 }
 </style>

@@ -3,7 +3,7 @@
     <h1>Insert a number and get the name in ukrainian</h1>
     <div>
       <input class="insert" v-model="searchInput" />
-      <h1>{{ result }}</h1>
+      <h1 class="result-text">{{ result }}</h1>
     </div>
   </div>
 </template>
@@ -30,13 +30,17 @@ export default {
 </script>
 <style scoped>
 .insert {
-  border: 2px solid #098319;
-  padding: 15px 32px;
+  background-color: #2ea2cc;
+  border: 2px solid #ffd600;
+  padding: 15px;
+  width: 300px;
   text-align: center;
-  text-decoration: none;
+  color: #ffd600;
   display: inline-block;
-  font-size: 34px;
+  font-size: 28px;
   margin: 4px 2px;
-  margin-bottom: 25px;
+}
+.result-text {
+  margin: 40px;
 }
 </style>

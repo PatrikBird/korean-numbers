@@ -1,6 +1,6 @@
 <template>
   <h1>Exercise: Random Numbers</h1>
-  <button class="green" @click="reload">Click generate new numbers</button>
+  <button class="yellow" @click="reload">Click to generate new numbers</button>
   <div class="random">
     <RandomNumberCard
       v-for="randomukrnumber in randomukrnumbers"
@@ -29,7 +29,6 @@ export default defineComponent({
   methods: {
     reload() {
       this.randomukrnumbers = []
-      // this.$forceUpdate()
       this.randomukrnumbers = DataService.get100RandomUkrainianNumbers()
       this.index = Math.random().toString(36).substring(7)
       this.$forceUpdate()
@@ -47,10 +46,11 @@ export default defineComponent({
   margin-right: 18px;
 }
 
-button.green {
-  background-color: #4caf50; /* Green */
+button.yellow {
+  background-color: #ffd600;
   border: none;
-  color: white;
+  color: #2ea2cc;
+  font-weight: bold;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
