@@ -1,6 +1,6 @@
 <template>
+  <h1>Ukrainian Numbers</h1>
   <div class="numbers">
-    <h1>Ukrainian Numbers</h1>
     <NumberCard
       v-for="ukrnumber in ukrnumbers"
       :key="ukrnumber.number"
@@ -30,7 +30,9 @@ export default defineComponent({
 <style scoped>
 .numbers {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 </style>

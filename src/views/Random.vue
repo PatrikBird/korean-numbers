@@ -1,6 +1,6 @@
 <template>
+  <h1>Exercise: Random Numbers</h1>
   <div class="random">
-    <h1>Exercise: Random Numbers</h1>
     <RandomNumberCard
       v-for="randomukrnumber in randomukrnumbers"
       :key="'r' + randomukrnumber.number"
@@ -21,7 +21,7 @@ export default defineComponent({
   },
   data() {
     return {
-      randomukrnumbers: DataService.getRandomUkrainianNumbers(),
+      randomukrnumbers: DataService.getXRandomUkrainianNumbers(20),
     }
   },
 })
@@ -30,7 +30,9 @@ export default defineComponent({
 <style scoped>
 .random {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 18px;
+  margin-right: 18px;
 }
 </style>
