@@ -35,4 +35,11 @@ export default defineComponent({
   margin-left: 18px;
   margin-right: 18px;
 }
+
+@media only screen and (max-width: 600px) {
+  .number-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 </style>

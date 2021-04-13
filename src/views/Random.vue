@@ -47,6 +47,7 @@ export default defineComponent({
 }
 
 button.yellow {
+  touch-action: manipulation;
   background-color: #ffd600;
   border: none;
   color: #2ea2cc;
@@ -59,5 +60,12 @@ button.yellow {
   margin: 4px 2px;
   cursor: pointer;
   margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .random-number-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 </style>
