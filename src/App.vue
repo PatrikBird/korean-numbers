@@ -2,8 +2,7 @@
   <div id="nav">
     <router-link to="/">Ukrainian Numbers</router-link> |
     <router-link to="/insert">Insert a Number</router-link> |
-    <router-link to="/random">Excercise: Random Numbers</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/random">Excercise: Random Numbers</router-link>
   </div>
   <router-view />
 </template>

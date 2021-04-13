@@ -1,7 +1,7 @@
 <template>
   <div class="number-card">
     <h1>{{ ukrnumber.number }}</h1>
-    <h2>{{ ukrnumber.cardinal }}</h2>
+    <h3>{{ ukrnumber.cardinal }}</h3>
   </div>
 </template>
 

@@ -3,9 +3,7 @@
     <h1>Insert a number and get it in ukrainian</h1>
     <div>
       <input v-model="searchInput" />
-      <div>
-        <p>Name in ukrainian : {{ result }}</p>
-      </div>
+      <h1>{{ result }}</h1>
     </div>
   </div>
 </template>

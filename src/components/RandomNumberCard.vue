@@ -1,8 +1,8 @@
 <template>
   <div class="random-number-card" @click="toogleTrueFalse()">
-    <h1>{{ randomukrnumber.number }}</h1>
-    <h2 v-if="isVisible">{{ randomukrnumber.cardinal }}</h2>
-    <h4 v-else>Click to show</h4>
+    <h2>{{ randomukrnumber.number }}</h2>
+    <h3 v-if="isVisible">{{ randomukrnumber.cardinal }}</h3>
+    <h4 class="click-to-show-title" v-else>Click to show</h4>
   </div>
 </template>
 
@@ -39,5 +39,9 @@ export default {
 .random-number-card:hover {
   transform: scale(1.01);
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.click-to-show-title {
+  color: #ff0000;
 }
 </style>

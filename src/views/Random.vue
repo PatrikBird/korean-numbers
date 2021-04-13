@@ -1,9 +1,10 @@
 <template>
   <h1>Exercise: Random Numbers</h1>
+  <button class="green" @click="reload">Click generate new numbers</button>
   <div class="random">
     <RandomNumberCard
       v-for="randomukrnumber in randomukrnumbers"
-      :key="'r' + randomukrnumber.number"
+      :key="index + randomukrnumber.number"
       :randomukrnumber="randomukrnumber"
     />
   </div>
@@ -21,8 +22,18 @@ export default defineComponent({
   },
   data() {
     return {
-      randomukrnumbers: DataService.getXRandomUkrainianNumbers(20),
+      randomukrnumbers: DataService.get100RandomUkrainianNumbers(),
+      index: Math.random().toString(36).substring(7),
     }
+  },
+  methods: {
+    reload() {
+      this.randomukrnumbers = []
+      // this.$forceUpdate()
+      this.randomukrnumbers = DataService.get100RandomUkrainianNumbers()
+      this.index = Math.random().toString(36).substring(7)
+      this.$forceUpdate()
+    },
   },
 })
 </script>
@@ -34,5 +45,19 @@ export default defineComponent({
   justify-content: space-between;
   margin-left: 18px;
   margin-right: 18px;
+}
+
+button.green {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-bottom: 25px;
 }
 </style>
