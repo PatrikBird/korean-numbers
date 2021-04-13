@@ -16,7 +16,7 @@ function getUkrainianNumber(number: number): UkrainianNumber {
   if (isNaN(number)) return { number: number, cardinal: 'Insert only Numbers' }
   if (number % 1 !== 0) return { number: number, cardinal: 'Only Integers' }
   const notFoundNumber = { number: number, cardinal: 'Not Found' }
-  if (number > actualLimit) return notFoundNumber
+  if (number > actualLimit || number < 0) return notFoundNumber
 
   const ukrainianNumber: UkrainianNumber =
     getUkrainianNumbers().find(function (i: UkrainianNumber) {

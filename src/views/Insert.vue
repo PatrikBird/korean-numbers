@@ -2,7 +2,12 @@
   <div>
     <h1>Insert a number and get the name in ukrainian</h1>
     <div>
-      <input class="insert" v-model="searchInput" />
+      <input
+        type="number"
+        placeholder="0"
+        class="insert"
+        v-model="searchInput"
+      />
       <h1 class="result-text">{{ result }}</h1>
     </div>
   </div>
@@ -42,5 +47,13 @@ export default {
 }
 .result-text {
   margin: 40px;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
 }
 </style>
