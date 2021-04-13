@@ -2,7 +2,7 @@
   <div class="random-number-card" @click="toogleTrueFalse()">
     <h2>{{ randomukrnumber.number }}</h2>
     <h3 v-if="isVisible">{{ randomukrnumber.cardinal }}</h3>
-    <h4 class="click-to-show-title" v-else>Click to show</h4>
+    <h4 class="click-to-show-title" v-else>Click to show name</h4>
   </div>
 </template>
 

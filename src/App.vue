@@ -1,8 +1,8 @@
 <template>
   <div id="nav">
-    <router-link to="/">Ukrainian Numbers</router-link> |
-    <router-link to="/insert">Insert a Number</router-link> |
-    <router-link to="/random">Excercise: Random Numbers</router-link>
+    <router-link to="/">Numbers</router-link> |
+    <router-link to="/insert">Insert</router-link> |
+    <router-link to="/random">Excercise</router-link>
   </div>
   <router-view />
 </template>
@@ -21,11 +21,13 @@ body {
 }
 
 #nav {
+  color: #2ea2cc;
   padding: 30px;
+  background-color: #ffd600;
 }
 
 #nav a {
-  color: #ffd600;
+  color: #2ea2cc;
   font-size: 20px;
   border-bottom: 3px solid transparent;
   text-decoration: none;
@@ -36,8 +38,8 @@ body {
 }
 
 #nav a.router-link-exact-active {
-  color: #ffd600;
+  color: #2ea2cc;
   font-weight: bold;
-  border-bottom: 3px solid #ffd600;
+  border-bottom: 3px solid #2ea2cc;
 }
 </style>
