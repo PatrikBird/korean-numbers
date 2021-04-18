@@ -1,24 +1,6 @@
-# ukrainian-numbers
-
-## Project setup
+# Learn and practise Korean numbers
+Based on [ukrainian-numbers.](https://github.com/luifa7/ukrainian-numbers)
+## Project uses yarn
 ```
-yarn install
+yarn install/serve
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
