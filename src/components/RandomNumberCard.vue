@@ -1,7 +1,7 @@
 <template>
-  <div class="random-number-card" @click="toogleTrueFalse()">
-    <h2>{{ randomukrnumber.number }}</h2>
-    <h3 v-if="isVisible">{{ randomukrnumber.cardinal }}</h3>
+  <div class="random-number-card" @click="toggleVisibility">
+    <h2>{{ randomKoreanNumber.number }}</h2>
+    <h3 v-if="isVisible">{{ randomKoreanNumber.cardinal }}</h3>
     <h4 class="click-to-show-title" v-else>Click to show name</h4>
   </div>
 </template>
@@ -13,14 +13,14 @@ export default {
   setup() {
     const isVisible = ref(false)
 
-    function toogleTrueFalse() {
+    function toggleVisibility() {
       isVisible.value = !isVisible.value
     }
 
-    return { isVisible, toogleTrueFalse }
+    return { isVisible, toggleVisibility }
   },
   props: {
-    randomukrnumber: {
+    randomKoreanNumber: {
       type: Object,
       required: true,
     },

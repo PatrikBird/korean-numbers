@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import UkrainianNumbers from '../views/UkrainianNumbers.vue'
 import Insert from '../views/Insert.vue'
 import Random from '../views/Random.vue'
+import KoreanNumbers from '@/views/KoreanNumbers.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'UkrainianNumbers',
-    component: UkrainianNumbers,
+    name: 'KoreanNumbers',
+    component: KoreanNumbers,
   },
   {
     path: '/insert',

@@ -3,9 +3,9 @@
   <button class="yellow" @click="reload">Click to generate new numbers</button>
   <div class="random">
     <RandomNumberCard
-      v-for="randomukrnumber in randomukrnumbers"
-      :key="index + randomukrnumber.number"
-      :randomukrnumber="randomukrnumber"
+      v-for="kNum in randomKoreanNumbers"
+      :key="index + kNum.number"
+      :randomKoreanNumber="kNum"
     />
   </div>
 </template>
@@ -22,13 +22,13 @@ export default defineComponent({
   },
   data() {
     return {
-      randomukrnumbers: DataService.get100RandomUkrainianNumbers(),
+      randomKoreanNumbers: DataService.get100RandomUkrainianNumbers(),
       index: Math.random().toString(36).substring(7),
     }
   },
   methods: {
     reload() {
-      this.randomukrnumbers = DataService.get100RandomUkrainianNumbers()
+      this.randomKoreanNumbers = DataService.get100RandomUkrainianNumbers()
       this.index = Math.random().toString(36).substring(7)
     },
   },

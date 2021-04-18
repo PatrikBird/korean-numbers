@@ -2,9 +2,9 @@
   <h1>Korean Numbers</h1>
   <div class="numbers">
     <NumberCard
-      v-for="ukrnumber in ukrnumbers"
-      :key="ukrnumber.number"
-      :ukrnumber="ukrnumber"
+      v-for="koreanNumber in koreanNumbers"
+      :key="koreanNumber.number"
+      :koreanNumber="koreanNumber"
     />
   </div>
 </template>
@@ -15,13 +15,13 @@ import NumberCard from '../components/NumberCard.vue'
 import DataService from '../services/DataService'
 
 export default defineComponent({
-  name: 'UkrainianNumbers',
+  name: 'KoreanNumbers',
   components: {
     NumberCard,
   },
   data() {
     return {
-      ukrnumbers: DataService.getUkrainianNumbers(),
+      koreanNumbers: DataService.getUkrainianNumbers(),
     }
   },
 })

@@ -1,14 +1,14 @@
 <template>
   <div class="number-card">
-    <h1>{{ ukrnumber.number }}</h1>
-    <h3>{{ ukrnumber.cardinal }}</h3>
+    <h1>{{ koreanNumber.number }}</h1>
+    <h3>{{ koreanNumber.cardinal }}</h3>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    ukrnumber: {
+    koreanNumber: {
       type: Object,
       required: true,
     },
