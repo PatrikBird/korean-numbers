@@ -8,7 +8,7 @@ interface UkrainianNumber {
 const actualLimit = 999999999
 
 function getUkrainianNumbers(): UkrainianNumber[] {
-  return ukrainian_numbers.korean_numbers
+  return ukrainian_numbers.korean
 }
 
 function getUkrainianNumber(number: number): UkrainianNumber {
