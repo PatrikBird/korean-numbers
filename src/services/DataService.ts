@@ -1,4 +1,4 @@
-import ukrainian_numbers from '../ukrainian_numbers.json'
+import ukrainian_numbers from '../numbers.json'
 
 interface UkrainianNumber {
   number: number
@@ -8,7 +8,7 @@ interface UkrainianNumber {
 const actualLimit = 999999999
 
 function getUkrainianNumbers(): UkrainianNumber[] {
-  return ukrainian_numbers.ukrainian_numbers
+  return ukrainian_numbers.korean_numbers
 }
 
 function getUkrainianNumber(number: number): UkrainianNumber {

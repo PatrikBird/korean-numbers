@@ -1,0 +1,93 @@
+{
+    "korean_numbers": [
+      {
+        "number": 0, 
+        "cardinal": "공 (gong)"
+      },
+      {
+        "number": 1, 
+        "cardinal": "일 (il)"
+      },
+      {
+        "number": 2, 
+        "cardinal": "이 (ee)"
+      },
+      {
+        "number": 3, 
+        "cardinal": "삼 (sam)"
+      },
+      {
+        "number": 4, 
+        "cardinal": "사 (sa)"
+      },
+      {
+        "number": 5, 
+        "cardinal": "오 (oh)"
+      },
+      {
+        "number": 6, 
+        "cardinal": "육 (yuk)"
+      },
+      {
+        "number": 7, 
+        "cardinal": "칠 (chil)"
+      },
+      {
+        "number": 8, 
+        "cardinal": "팔 (pal)"
+      },
+      {
+        "number": 9, 
+        "cardinal": "구 (gu)"
+      },
+      {
+        "number": 10, 
+        "cardinal": "십 (sib)"
+      },
+      {
+        "number": 20, 
+        "cardinal": "이십 (ee-sib)"
+      },
+      {
+        "number": 30, 
+        "cardinal": "삼십 (sam-sib)"
+      },
+      {
+        "number": 40, 
+        "cardinal": "사십 (sa-sib)"
+      },
+      {
+        "number": 50, 
+        "cardinal": "오십 (oh-sib)"
+      },
+      {
+        "number": 60, 
+        "cardinal": "육십(yuk-sib)"
+      },
+      {
+        "number": 70, 
+        "cardinal": "칠십 (chil-sib)"
+      },
+      {
+        "number": 80, 
+        "cardinal": "팔십 (pal-sib)"
+      },
+      {
+        "number": 90, 
+        "cardinal": "구십 (gu-sib)"
+      },
+      {
+        "number": 100, 
+        "cardinal": "백 (baek)"
+      },
+      {
+        "number": 1000, 
+        "cardinal": "천 (cheon)"
+      },
+      {
+        "number": 1000000, 
+        "cardinal": "백만 (baekman)"
+      }
+    ]
+  }
+  
