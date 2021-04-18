@@ -39,7 +39,7 @@ export default {
   padding: 20px;
   width: 150px;
   cursor: pointer;
-  border: 2px solid #ffd600;
+  border: 2px solid #cd2e3a;
   margin-bottom: 18px;
 }
 .random-number-card:hover {
@@ -47,6 +47,6 @@ export default {
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
 }
 .click-to-show-title {
-  color: #ffd600;
+  color: #000;
 }
 </style>

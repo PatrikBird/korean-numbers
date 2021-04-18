@@ -1,5 +1,5 @@
 <template>
-  <h1>Ukrainian Numbers</h1>
+  <h1>Korean Numbers</h1>
   <div class="numbers">
     <NumberCard
       v-for="ukrnumber in ukrnumbers"

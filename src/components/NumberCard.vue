@@ -26,7 +26,7 @@ export default {
 .number-card {
   padding: 20px;
   width: 150px;
-  border: 2px solid #ffd600;
+  border: 2px solid #cd2e3a;
   margin-bottom: 18px;
 }
 </style>

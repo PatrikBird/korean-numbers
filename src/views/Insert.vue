@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Insert a number and get the name in ukrainian</h1>
+    <h1>Insert a number and get the name in korean</h1>
     <div>
       <input
         type="number"
@@ -33,14 +33,15 @@ export default {
   },
 }
 </script>
+
 <style scoped>
 .insert {
-  background-color: #2ea2cc;
-  border: 2px solid #ffd600;
+  background-color: #cd2e3a;
+  border: 2px solid #000;
   padding: 15px;
   width: 300px;
   text-align: center;
-  color: #ffd600;
+  color: #000;
   display: inline-block;
   font-size: 28px;
   margin: 4px 2px;

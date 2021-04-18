@@ -43,20 +43,22 @@ export default defineComponent({
   margin-left: 18px;
   margin-right: 18px;
 }
-
+button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+}
 button.yellow {
   touch-action: manipulation;
-  background-color: #ffd600;
+  background-color: #cd2e3a;
   border: none;
-  color: #2ea2cc;
+  color: #000;
   font-weight: bold;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
-  margin-bottom: 25px;
+  margin: 4px 2px 25px;
 }
 </style>
