@@ -29,6 +29,12 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-width: 600px) {
+  .random-number-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .random-number-card {
   padding: 20px;
   width: 150px;
@@ -40,7 +46,6 @@ export default {
   transform: scale(1.01);
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
 }
-
 .click-to-show-title {
   color: #ffd600;
 }

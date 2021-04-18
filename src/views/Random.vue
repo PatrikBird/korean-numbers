@@ -28,10 +28,8 @@ export default defineComponent({
   },
   methods: {
     reload() {
-      this.randomukrnumbers = []
       this.randomukrnumbers = DataService.get100RandomUkrainianNumbers()
       this.index = Math.random().toString(36).substring(7)
-      this.$forceUpdate()
     },
   },
 })
@@ -60,12 +58,5 @@ button.yellow {
   margin: 4px 2px;
   cursor: pointer;
   margin-bottom: 25px;
-}
-
-@media only screen and (max-width: 600px) {
-  .random-number-card {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 </style>

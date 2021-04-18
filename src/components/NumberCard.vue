@@ -17,6 +17,12 @@ export default {
 </script>
 
 <style scoped>
+@media only screen and (max-width: 600px) {
+  .number-card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .number-card {
   padding: 20px;
   width: 150px;
