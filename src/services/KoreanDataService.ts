@@ -42,13 +42,16 @@ function getRevertedArray(number: number): string[] {
 function getCardinalName(digits: string[]): string {
   const tens: string[] = []
   const hundreds: string[] = []
+  const thousands: string[] = []
   let cardinalName = ''
 
   for (let index = 0; index < digits.length; index++) {
     if (index < 2) tens.push(digits[index])
     else if (index < 3) hundreds.push(digits[index])
+    else if (index < 4) thousands.push(digits[index])
   }
 
+  if (digits.length > 3) cardinalName += getThousands(thousands)
   if (digits.length > 2) cardinalName += getHundreds(hundreds)
   cardinalName += getTens(tens) + ' '
 
@@ -74,7 +77,7 @@ function getTens(digits: string[]): string {
 }
 
 function getHundreds(digits: string[]): string {
-  const hundred = '백 (baek)'
+  const hundred = '백 (baek)' // todo: get from data.json
   if (digits.length === 1) {
     if (+digits[0] === 0) return ''
     if (+digits[0] === 1) return hundred
@@ -84,4 +87,17 @@ function getHundreds(digits: string[]): string {
   const tens = getTens(digits)
   if (tens.length === 0) return ''
   return tens
+}
+
+function getThousands(digits: string[]): string {
+  const thousand = '천 (cheon)' // todo: get from data.json
+  if (digits.length === 1) {
+    if (+digits[0] === 0) return ''
+    if (+digits[0] === 1) return thousand
+    else return getCardinalFromNumber(+digits[0]) + thousand
+  }
+
+  const hundreds = getHundreds(digits)
+  if (hundreds.length === 0) return ''
+  return hundreds
 }

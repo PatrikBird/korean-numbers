@@ -85,6 +85,10 @@
       "cardinal": "천 (cheon)"
     },
     {
+      "number": 10000,
+      "cardinal": "만 (mahn)"
+    },
+    {
       "number": 1000000,
       "cardinal": "백만 (baekman)"
     }
