@@ -12,7 +12,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import NumberCard from '../components/NumberCard.vue'
-import DataService from '../services/DataService'
+import { getAllKoreanNumbers } from '@/services/KoreanDataService'
 
 export default defineComponent({
   name: 'KoreanNumbers',
@@ -21,7 +21,7 @@ export default defineComponent({
   },
   data() {
     return {
-      koreanNumbers: DataService.getUkrainianNumbers(),
+      koreanNumbers: getAllKoreanNumbers(),
     }
   },
 })

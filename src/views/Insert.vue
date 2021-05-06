@@ -6,7 +6,7 @@
         type="number"
         placeholder="0"
         class="insert"
-        v-model="searchInput"
+        v-model.trim="searchInput"
       />
       <h1 class="result-text">{{ result }}</h1>
     </div>
@@ -14,7 +14,7 @@
 </template>
 <script>
 import { ref, watch } from 'vue'
-import DataService from '../services/DataService'
+import { getCardinalFromNumber } from '@/services/KoreanDataService'
 
 export default {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
@@ -25,7 +25,7 @@ export default {
     watch(
       searchInput,
       () => {
-        result.value = DataService.getCardinalFromNumber(searchInput.value)
+        result.value = getCardinalFromNumber(searchInput.value)
       },
       { immediate: true }
     )
