@@ -1,7 +1,7 @@
 import { KoreanNumber } from '@/types'
 import korean from '@/numbers.json'
 
-const actualLimit = 999999999
+const actualLimit = 10000
 
 export function getAllKoreanNumbers(): KoreanNumber[] {
   return korean.numbers
@@ -100,4 +100,22 @@ function getThousands(digits: string[]): string {
   const hundreds = getHundreds(digits)
   if (hundreds.length === 0) return ''
   return hundreds
+}
+
+export function get10RandomNumbers(): KoreanNumber[] {
+  const arr: KoreanNumber[] = []
+  while (arr.length < 11) {
+    const rng = Math.floor(Math.random() * 100) + 1
+    const koreanNumber: KoreanNumber = getNumber(rng)
+    if (arr.indexOf(koreanNumber) === -1) arr.push(koreanNumber)
+  }
+  return shuffle(arr)
+
+  function shuffle(array: KoreanNumber[]): KoreanNumber[] {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[array[i], array[j]] = [array[j], array[i]]
+    }
+    return array
+  }
 }

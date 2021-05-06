@@ -13,7 +13,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 import RandomNumberCard from '../components/RandomNumberCard.vue'
-import DataService from '../services/DataService'
+import { get10RandomNumbers } from '@/services/KoreanDataService'
 
 export default defineComponent({
   name: 'Random',
@@ -22,13 +22,13 @@ export default defineComponent({
   },
   data() {
     return {
-      randomKoreanNumbers: DataService.get100RandomUkrainianNumbers(),
+      randomKoreanNumbers: get10RandomNumbers(),
       index: Math.random().toString(36).substring(7),
     }
   },
   methods: {
     reload() {
-      this.randomKoreanNumbers = DataService.get100RandomUkrainianNumbers()
+      this.randomKoreanNumbers = get10RandomNumbers()
       this.index = Math.random().toString(36).substring(7)
     },
   },
